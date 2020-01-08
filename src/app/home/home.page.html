@@ -1,0 +1,71 @@
+
+
+    
+    <!-- 
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    cordova script (this will be a 404 during development) 
+    <script src="cordova.js"></script>-->
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+   
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet"> -->
+
+      <ion-content ng-controller="menuCtrl" padding="false" style="top:0px !important;" class="side-menu-left ">
+        <!--<app-side-menu></app-side-menu>-->
+        <ion-list id="menu-list1" data-componentid="list1">
+          <ion-item class="item-avatar item-icon-right positive" id="menu-list-item11" ui-sref="changerInfoPersonnels()" menu-close="" data-componentid="list-item11">
+            
+            <h2>Compaore Abdoul Rachid
+              <p>Lycée communal</p>
+              <ion-icon name="android-create icon-accessory"></ion-icon>
+            </h2>
+          </ion-item>
+          <ion-item  class="item-icon-left" id="menu-list-item49" ui-sref="tabsController.mathematiques()" menu-close="" data-componentid="list-item49">
+            <ion-icon name="home"></ion-icon>
+            <a routerLink="/home">Accueil</a>
+          </ion-item>
+          <ion-item class="item-icon-left item-icon-right" id="menu-list-item5" ui-sref="profile()" menu-close="" data-componentid="list-item5">
+            <ion-icon name="person"></ion-icon>
+            <a routerLink="/profile">Profile</a>
+            <ion-icon name="arrow-dropright"></ion-icon>
+          </ion-item>
+          <ion-item class="item-icon-left item-icon-right" id="menu-list-item8" ui-sref="mesCours()" menu-close="" data-componentid="list-item8">
+            <ion-icon name="ios-book"></ion-icon>
+            <a routerLink="/cours">Cours</a>
+            <ion-icon name="arrow-dropright"></ion-icon>
+          </ion-item>
+          <ion-item class="item-icon-left item-icon-right" id="menu-list-item9" ui-sref="activites()" menu-close="" data-componentid="list-item9">
+           <ion-icon name="discuss"></ion-icon>
+           <a routerLink="/activities">Mes activites</a>
+            <ion-icon name="arrow-dropright"></ion-icon>
+          </ion-item>
+          <ion-item class="item-icon-left item-icon-right" id="menu-list-item10" ui-sref="personnesSuivis()" menu-close="" data-componentid="list-item10">
+            <ion-icon name="fork"></ion-icon>
+            <a routerLink="/help">Mes suivis</a>
+            <ion-icon name="arrow-dropright"></ion-icon>
+          </ion-item>
+          <ion-item class="item-icon-left item-icon-right" id="menu-list-item6" ui-sref="parametres()" menu-close="" data-componentid="list-item6">
+            <ion-icon name="settings"></ion-icon>
+            <a routerLink="/settings">Settings</a>
+            <ion-icon name="arrow-dropright"></ion-icon>
+          </ion-item>
+          <ion-item class="item-icon-left" id="menu-list-item13" data-componentid="list-item13">
+            <ion-icon name="star"></ion-icon>
+            <a routerLink="/help">Noter l'application</a>
+          </ion-item>
+          <ion-item class="item-icon-left item-icon-right" id="menu-list-item7"  ui-sref="aPropos()" menu-close="" data-componentid="list-item7">
+            <ion-icon name="information-circle"></ion-icon>
+            <a routerLink="/help">A propos</a>
+            <ion-icon name="arrow-dropright"></ion-icon>
+          </ion-item>
+          <ion-item class="item-icon-left" id="menu-list-item12" data-componentid="list-item12">
+            <ion-icon name="exit"></ion-icon>
+            <a routerLink="/help">Quitter</a>
+          </ion-item>
+        </ion-list>
+      </ion-content>
+
+
